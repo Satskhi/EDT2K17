@@ -1,0 +1,35 @@
+#chat-messages .id-13720951 .badge-box i.bdg
+{
+        background-image:       url('https://i.imgur.com/mQ7gm6T.gif');
+        background-size:        cover;
+}
+#chat-messages .id-13720951 
+{
+        background: linear-gradient(85deg,#1F1232 0,#111317 33%,#111317 100%) !important;
+       
+        border-left: 3px solid #8230FF !important;
+}
+[data-cid^="13720951"] .msg .from .un 
+{
+        color: #ac76ff !important;
+}
+#chat-messages .id-13720951 .badge-box 
+{
+        background:none;
+        border: 2px solid #574171;
+}
+#chat-messages .id-13720951 .icon {
+    display: none;
+}
+[data-cid^="13720951-"] .msg .from .un {
+		position: relative;
+		left: -1px;
+		padding-left: 18px;
+		background-image: url('http://www.marzahner-vc.de/wp-content/uploads/2015/01/preloader2.gif');
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		background-size: 14px auto;
+}
+[data-cid^="13720951-"] .msg .from .un:hover:after {
+content:' "I am Ekko! Good see you." ';
+}
