@@ -3,7 +3,7 @@
 	background-size: cover;
 }
 #chat-messages .id-13720951 {
-        background: linear-gradient(85deg,rgba(4, 166, 252, 0.5) 0,#111317 33%,#111317 100%) !important;
+        background: linear-gradient(85deg,rgba(4, 166, 252, 0.25) 0,#111317 33%,#111317 100%) !important;
         border-left: 3px solid rgba(4, 166, 252, 1) !important;
 }
 [data-cid^="13720951"] .msg .from .un {
