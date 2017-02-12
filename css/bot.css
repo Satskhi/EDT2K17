@@ -1,6 +1,6 @@
 #chat-messages .id-13720951 .badge-box i.bdg {
-	background-image: url('https://i.imgur.com/mQ7gm6T.gif');
-	background-size: cover;
+	background-image: url('https://i.imgur.com/mQ7gm6T.gif') !important;
+	background-size: cover !important;
 }
 #chat-messages .id-13720951 {
         background: linear-gradient(85deg,rgba(4, 166, 252, 0.25) 0,#111317 33%,#111317 100%) !important;
@@ -10,21 +10,21 @@
         color: rgba(4, 166, 252, 1) !important;
 }
 #chat-messages .id-13720951 .badge-box {
-        background:none;
-        border: 2px solid rgba(4, 166, 252, 1);
+        background:none !important;
+        border: 2px solid rgba(4, 166, 252, 1) !important;
 }
 #chat-messages .id-13720951 .icon {
-    display: none;
+    display: none !important;
 }
 [data-cid^="13720951-"] .msg .from .un {
-	position: relative;
-	left: -1px;
-	padding-left: 18px;
-	background-image: url('https://i.imgur.com/l3djc9f.gif');
-	background-repeat: no-repeat;
-	background-position: 0 center;
-	background-size: 14px auto;
+	position: relative !important;
+	left: -1px !important;
+	padding-left: 18px !important;
+	background-image: url('https://i.imgur.com/l3djc9f.gif') !important;
+	background-repeat: no-repeat !important;
+	background-position: 0 center !important;
+	background-size: 14px auto !important;
 }
 [data-cid^="13720951-"] .msg .from .un:hover:after {
-content:' "I am Ekko! Good see you." ';
+content:' "I am Ekko! Good see you." ' !important;
 }
