@@ -4,14 +4,14 @@
 }
 #chat-messages .id-13720951 {
         background: linear-gradient(85deg,rgba(4, 166, 252, 0.5) 0,#111317 33%,#111317 100%) !important;
-        border-left: 3px solid #04a6fc !important;
+        border-left: 3px solid rgba(4, 166, 252, 1) !important;
 }
 [data-cid^="13720951"] .msg .from .un {
-        color: #04a6fc !important;
+        color: rgba(4, 166, 252, 1) !important;
 }
 #chat-messages .id-13720951 .badge-box {
         background:none;
-        border: 2px solid #04a6fc;
+        border: 2px solid rgba(4, 166, 252, 1);
 }
 #chat-messages .id-13720951 .icon {
     display: none;
