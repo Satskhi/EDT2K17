@@ -1,0 +1,4 @@
+#chat-messages::-webkit-scrollbar-thumb, #grab-rs-list::-webkit-scrollbar-thumb, #meh-rs-list::-webkit-scrollbar-thumb, #woot-rs-list::-webkit-scrollbar-thumb, .dialog::-webkit-thumb, .dropdown dd::-webkit-scrollbar-thumb, .jspDrag {
+    background: rgba(4, 166, 252, 1);
+    box-shadow: inset 1px 0 7px rgba(4, 166, 252, 0.5);
+}
