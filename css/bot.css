@@ -13,9 +13,9 @@
         background:none !important;
         border: 2px solid rgba(4, 166, 252, 1) !important;
 }
-#chat-messages .id-13720951 .icon {
+/*#chat-messages .id-13720951 .icon {
     display: none !important;
-}
+}*/
 [data-cid^="13720951-"] .msg .from .un {
 	position: relative !important;
 	left: -1px !important;
