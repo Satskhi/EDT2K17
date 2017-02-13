@@ -16,7 +16,7 @@
     border-left: 3px solid rgba(4, 166, 252, 1);
 }
 #chat-messages .cm.mention:hover, #chat-messages .cm.emote:hover, #chat-messages .cm.log:hover, #chat-messages .cm.message:hover {
-    background: rgba(4, 166, 252, 0.15);
+    background: rgba(4, 166, 252, 0.5);
 }
 #rcs-menu .group:hover {
     background: linear-gradient(to left,rgba(4, 166, 252, 0.25) 0,rgba(17, 19, 23, 0.5) 100%);
