@@ -7,7 +7,7 @@
 #chat .emote:nth-child(2n+1), #chat .mention:nth-child(2n+1), #chat .message:nth-child(2n+1), #chat .moderation:nth-child(2n+1), #chat .skip:nth-child(2n+1), #chat .system:nth-child(2n+1), #chat .update:nth-child(2n+1), #chat .welcome:nth-child(2n+1), rcs-deleted-message {
     background: rgba(10, 10, 10, 0.65) !important;
 }
-#chat .mention.is-dj, #chat .mention.is-staff, #rcs-menu .group:hover {
+#chat .mention.is-dj, #chat .mention.is-staff {
     background: linear-gradient(to left,rgba(4, 166, 252, 0.25) 0,rgba(17, 19, 23, 0.5) 100%) !important;
     border-right: 3px solid rgba(4, 166, 252, 1) !important;
 }
@@ -17,4 +17,7 @@
 }
 #chat-messages .cm.mention:hover, #chat-messages .cm.emote:hover, #chat-messages .cm.log:hover, #chat-messages .cm.message:hover {
     background: rgba(4, 166, 252, 0.15) !important;
+}
+#rcs-menu .group:hover {
+    background: linear-gradient(to left,rgba(4, 166, 252, 0.25) 0,rgba(17, 19, 23, 0.5) 100%) !important;
 }
