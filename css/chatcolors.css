@@ -16,6 +16,6 @@
 #chat .rs-log-yellow:hover {
     background: rgba(246, 255, 116, 0.2) !important;
 }
-#chat .rs-log-user-ambassador-join {
+#chat .rs-log-user-ambassador-join:hover {
     background: rgba(137, 190, 108, 0.2); !important;
 }
