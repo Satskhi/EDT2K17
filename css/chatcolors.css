@@ -1,0 +1,18 @@
+#chat .rs-log-red:hover, #chat .rs-log-user-level1-join:hover, #chat .rs-log-user-meh:hover {
+    background: rgba(196, 46, 59, 0.2) !important;
+}
+#chat .rs-log-usrinfo:hover, #chat .rs-log-aqua:hover, #chat .rs-log-booth-alert:hover, #chat .rs-log-user-join:hover {
+    background: rgba(0, 156, 221, 0.2) !important;
+}
+#chat .rs-log-green:hover, #chat .rs-log-user-friend-join:hover, #chat .rs-log-user-woot:hover {
+    background: rgba(144, 173, 47, 0.2) !important;
+}
+#chat .rs-log-orange:hover, #chat .rs-log-user-leave:hover, #chat .rs-log-history:hover {
+    background: rgba(244, 107, 64, 0.2) !important;
+}
+#chat .rs-log-purple:hover, #chat .rs-log-user-grab:hover {
+    background: rgba(170, 116, 255, 0.2) !important;
+}
+#chat .rs-log-yellow:hover {
+    background: rgba(246, 255, 116, 0.2) !important;
+}
