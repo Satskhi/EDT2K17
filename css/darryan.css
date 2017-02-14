@@ -1,0 +1,20 @@
+
+#chat-messages .id-5280078 {
+        border-left: 3px solid rgba(4, 166, 252, 1) !important;
+}
+#chat-messages .id-5280078 .badge-box {
+        background:none !important;
+        border: 2px solid rgba(4, 166, 252, 1) !important;
+}
+/*#chat-messages .id-5280078 .icon {
+    display: none !important;
+}*/
+[data-cid^="5280078-"] .msg .from .un {
+	position: relative !important;
+	left: -1px !important;
+	padding-left: 18px !important;
+	background-image: url('https://i.imgur.com/l3djc9f.gif') !important;
+	background-repeat: no-repeat !important;
+	background-position: 0 center !important;
+	background-size: 14px auto !important;
+}
