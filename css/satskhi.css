@@ -3,11 +3,11 @@
 	background-size: cover !important;
 }
 #chat-messages .id-4405644 {
-        border-left: 3px solid rgba(4, 166, 252, 1) !important;
+        border-left: 3px solid #d41777 !important;
 }
 #chat-messages .id-4405644 .badge-box {
         background:none !important;
-        border: 2px solid rgba(4, 166, 252, 1) !important;
+        border: 2px solid #d41777 !important;
 }
 /*#chat-messages .id-4405644 .icon {
     display: none !important;
