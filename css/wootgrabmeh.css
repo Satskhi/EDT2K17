@@ -1,0 +1,197 @@
+#vote .crowd-response, #vote .crowd-response .bottom {
+	background: none;
+}
+.votes-rs {
+	background: rgba(0,0,0,0.5) !important;
+}
+
+/*woot*/
+#vote .top .icon-woot {
+	background-position: -105px -280px;
+}
+#vote #woot {
+	/*background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%) !important;*/
+	background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0) 5%) !important;
+}
+#woot .bottom {
+	background-image: linear-gradient(to top, #90ad2f 15%, rgba(0,0,0,0) 15%) !important;
+}
+#woot:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation-name: wootHover;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+    border-radius: 0 0 0 4px;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+#woot:hover:before{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+#woot.selected > div.top, #woot > div.top {
+	-webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+#woot.selected:hover > div.top, #woot:hover > div.top {
+	top:0px;
+}
+
+#woot.selected {
+	-webkit-animation-name: wootPulse;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes wootPulse {
+	from { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #90ad2f;}
+	50% { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 10px 1px #90ad2f;}
+	to { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #90ad2f;} 0
+}
+@-webkit-keyframes wootHover{
+	from { background-image: linear-gradient(to top, #90ad2f 5%, #90ad2f 5%); -webkit-box-shadow: inset 0 0 18px 1px #90ad2f;}
+	50% { background-image: linear-gradient(to top, #90ad2f 5%, #90ad2f 5%); -webkit-box-shadow: inset 0 0 9px 1px #90ad2f;}
+	to { background-image: linear-gradient(to top, #90ad2f 5%, #90ad2f 5%); -webkit-box-shadow: inset 0 0 18px 1px #90ad2f;}
+}
+/*woot*/
+/*grab*/
+#vote .top .icon-grab {
+	background-position: -35px -280px;
+}
+#vote #grab {
+	/*background-image: linear-gradient(to top, #aa74ff 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%) !important;*/
+	background-image: linear-gradient(to top, #aa74ff 5%, rgba(0,0,0,0) 5%) !important;
+}
+#grab .bottom {
+	background-image: linear-gradient(to top, #aa74ff 15%, rgba(0,0,0,0) 15%) !important;
+}
+#grab:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation-name: grabHover;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+#grab:hover:before{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+#grab.selected > div.top, #grab > div.top {
+	-webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+#grab.selected:hover > div.top, #grab:hover > div.top {
+	top:0px;
+}
+#grab.selected {
+	-webkit-animation-name: grabPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes grabPulse{
+	from { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #aa74ff; }
+	50% { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 10px 1px #aa74ff; }
+	to { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #aa74ff; }
+}
+@-webkit-keyframes grabHover{
+	from { background-image: linear-gradient(to top, #aa74ff 5%, #aa74ff 5%); -webkit-box-shadow: inset 0 -55px 55px -55px #aa74ff ; }
+	50% { background-image: linear-gradient(to top, #aa74ff 5%, #aa74ff 5%); -webkit-box-shadow: inset 0 -95px 95px -95px #aa74ff ; }
+	to { background-image: linear-gradient(to top, #aa74ff 5%, #aa74ff 5%); -webkit-box-shadow: inset 0 -55px 55px -55px #aa74ff ; }
+}
+/*grab*/
+/*meh*/
+#vote .top .icon-meh {
+	background-position: -70px -280px;
+}
+#vote #meh {
+	/*background-image: linear-gradient(to top, #c42e3b 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%) !important;*/
+	background-image: linear-gradient(to top, #c42e3b 5%, rgba(0,0,0,0) 5%) !important;
+}
+#meh .bottom {
+	background-image: linear-gradient(to top, #c42e3b 15%, rgba(0,0,0,0) 15%) !important;
+}
+#meh:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation-name: mehHover;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    border-radius: 0 0 4px 0;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+#meh:hover:before{
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+#meh.selected > div.top, #meh > div.top {
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+#meh.selected:hover > div.top, #meh:hover > div.top {
+	top:0px;
+}
+#meh.selected {
+	-webkit-animation-name: mehPulse;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes mehPulse{
+	from { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #c42e3b; }
+	50% { linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 10px 1px #c42e3b; }
+	to { background-image: linear-gradient(to top, #90ad2f 5%, rgba(0,0,0,0.7) 5%, rgba(0,0,0,0) 75%); -webkit-box-shadow: inset 0 0 25px 1px #c42e3b; }
+}
+@-webkit-keyframes mehHover{
+	from { background-image: linear-gradient(to top, #c42e3b 5%, #c42e3b 5%); -webkit-box-shadow: inset 0 0 18px 1px #c42e3b; }
+	50% { background-image: linear-gradient(to top, #c42e3b 5%, #c42e3b 5%); -webkit-box-shadow: inset 0 0 9px 1px #c42e3b; }
+	to { background-image: linear-gradient(to top, #c42e3b 5%, #c42e3b 5%); -webkit-box-shadow: inset 0 0 18px 1px #c42e3b; }
+}
+/*meh*/
