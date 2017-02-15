@@ -1,3 +1,7 @@
+//OFF
+API.off(API.ADVANCE);
+
+//ON
 API.on(API.ADVANCE, function () {
 var user = API.getDJ().username;
     let media = API.getMedia().cid;
