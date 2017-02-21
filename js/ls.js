@@ -19,19 +19,19 @@ var user = API.getDJ().username;
     else if (op.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is OP");
         setTimeout(function() {
-            API.sendChat("!skip");
+            API.sendChat("!lockskip");
         }, 1300);
     }
 	else if (theme.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is off theme");
         setTimeout(function() {
-            API.sendChat("!ls");
+            API.sendChat("!lockskip");
         }, 1300);
     }
 	else if (fkthissong.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song without quality :facepalm:");
         setTimeout(function() {
-            API.sendChat("!ls");
+            API.sendChat("!lockskip");
         }, 1300);
     }
 	else {
