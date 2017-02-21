@@ -13,31 +13,34 @@ var user = API.getDJ().username;
     if (nsfw.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is NFSW");
         setTimeout(function() {
-            API.sendChat("/skip");
+            API.sendChat("!skip");
         }, 1300);
     }
     else if (op.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is OP");
         setTimeout(function() {
-            API.sendChat("/skip");
+            API.sendChat("!skip");
+		setTimeout(function() {
+			API.sendChat("/move @"+user+" 2");
+		}, 1300);
         }, 1300);
     }
 	else if (theme.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is off theme");
         setTimeout(function() {
-            API.sendChat("/skip");
-				setTimeout(function() {
-					API.sendChat("/move @"+user+" 2");
-				}, 1300);
+            API.sendChat("!skip");
+		setTimeout(function() {
+			API.sendChat("/move @"+user+" 2");
+		}, 1300);
         }, 1300);
     }
 	else if (fkthissong.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song without quality :facepalm:");
         setTimeout(function() {
-            API.sendChat("!/skip");
-				setTimeout(function() {
-					API.sendChat("/move @"+user+" 2");
-				}, 1300);
+            API.sendChat("!!skip");
+		setTimeout(function() {
+			API.sendChat("/move @"+user+" 2");
+		}, 1300);
         }, 1300);
     }
 	else {
