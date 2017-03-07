@@ -27,19 +27,11 @@
 #chat-messages .id-13720951 .badge-box i {
     background-image: url(https://i.imgur.com/wSNN6i7.gif);
 }
-/*#chat-messages .id-13720951 .badge-box i.bdg {
-	background-image: url('https://i.imgur.com/wSNN6i7.gif') !important;
-	background-size: cover !important;
-}
-
 #chat-messages .id-13720951 .badge-box {
         background:none !important;
         border: 2px solid rgba(4, 166, 252, 1) !important;
 }
-/*#chat-messages .id-13720951 .icon {
-    display: none !important;
-}*/
-/*[data-cid^="13720951-"] .msg .from .un {
+[data-cid^="13720951-"] .msg .from .un {
 	position: relative !important;
 	left: -1px !important;
 	padding-left: 18px !important;
@@ -48,6 +40,16 @@
 	background-position: 0 center !important;
 	background-size: 14px auto !important;
 }
+/*#chat-messages .id-13720951 .badge-box i.bdg {
+	background-image: url('https://i.imgur.com/wSNN6i7.gif') !important;
+	background-size: cover !important;
+}
+
+
+/*#chat-messages .id-13720951 .icon {
+    display: none !important;
+}*/
+/*
 /*[data-cid^="13720951-"] .msg .from .un:hover:after {
 content:' "I am Ekko! Good see you." ' !important;
 }*/
