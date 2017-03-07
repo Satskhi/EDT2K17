@@ -26,8 +26,10 @@
 #chat-messages .id-4405644 .badge-box i {
     background-image: url(https://i.imgur.com/0tCiKnZ.gif);
 }
-#chat-messages .id-4405644 {
-        border-left: 3px solid #d41777 !important;
+
+#chat-messages .id-13720951 .badge-box {
+        background:none !important;
+        border: 2px solid #d41777 !important;
 }
 [data-cid^="4405644-"] .msg .from .un {
 	position: relative !important;
@@ -38,7 +40,10 @@
 	background-position: 0 center !important;
 	background-size: 14px auto !important;
 }
-/*#chat-messages .id-4405644 .badge-box i.bdg {
+/*#chat-messages .id-4405644 {
+        border-left: 3px solid #d41777 !important;
+}
+#chat-messages .id-4405644 .badge-box i.bdg {
 	background-image: url('https://i.imgur.com/0tCiKnZ.gif') !important;
 	background-size: cover !important;
 }
