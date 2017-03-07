@@ -7,7 +7,7 @@ var user = API.getDJ().username;
     let media = API.getMedia().cid;
 	const nsfw = ["PMCVHudpjgE","tf52mbGTB4o", "Rg6yj4f1KWA", "xVwb9Ws10Kc", "tMH3EqrOz2U", "9W8Q9FvH1XA", "O_QxG1rPW8Q", "wsUQKw4ByVg", "0W6HxYGth20", "Ei4rbJgMZPc"];
 	const op = ["1sXyBpbpHSk", "vZv9-TWdBJM", "Iw-6Y-jz9Kc", "f9EM8T5K6d8", "NSTx31dxmgA", "zM2kobGhWvo", "kcuVvryU9QA", "5hEh9LiSzow", "qn-X5A0gbMA", "Rpr_HNJ0Y3A", "GVmw6wnL4oQ"];
-	const theme = ["E5ONTXHS2mM"];
+	const theme = ["Zi4s5EB6uKk", "E5ONTXHS2mM"];
 	const fkthissong = ["291805417", "8QJV1sOm040"];
 
     if (nsfw.indexOf(media) > -1) {
