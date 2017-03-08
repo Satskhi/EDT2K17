@@ -9,12 +9,16 @@ var user = API.getDJ().username;
 	const op = ["1sXyBpbpHSk", "vZv9-TWdBJM", "Iw-6Y-jz9Kc", "f9EM8T5K6d8", "NSTx31dxmgA", "zM2kobGhWvo", "kcuVvryU9QA", "5hEh9LiSzow", "qn-X5A0gbMA", "Rpr_HNJ0Y3A", "GVmw6wnL4oQ"];
 	const theme = ["Zi4s5EB6uKk", "E5ONTXHS2mM"];
 	const fkthissong = ["291805417", "8QJV1sOm040"];
+	const nicesong = ["Sks4r_Dwyic", "QqccaHauSKQ"];
 
     if (nsfw.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is NFSW");
         setTimeout(function() {
             API.sendChat("!skip");
         }, 1300);
+    }
+	else if (nicesong.indexOf(media) > -1) {
+		API.sendChat("/me @"+user+" Nice Song! :heart_eyes_cat: :heart: ");
     }
     else if (op.indexOf(media) > -1) {
 		API.sendChat("/me @"+user+" Song is OP");
