@@ -20,7 +20,7 @@
         border-left: 3px solid #d41777 !important;
 }
 [data-cid^="4405644"] .msg .from .un {
-        color: rgba(4, 166, 252, 1) !important;
+        color: #d41777 !important;
 }
 #chat-messages .fromID-4405644 .badge-box i,
 #chat-messages .id-4405644 .badge-box i {
